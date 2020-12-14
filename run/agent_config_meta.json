@@ -1,0 +1,285 @@
+{
+  "keys": "/Users/lero/Documents/My-data/BLOG/blog_service/config/config.default.js",
+  "middleware": "/Users/lero/Documents/My-data/BLOG/blog_service/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-watcher/config/config.default.js",
+    "eventSources": {
+      "default": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.prod.js"
+  },
+  "view": {
+    "root": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "name": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "version": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "description": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "private": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "stop": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "dev": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "debug": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "test": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "cov": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "lint": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "ci": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "autod": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "url": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "license": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "env": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "level": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "coreLogger": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "port": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
+}

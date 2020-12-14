@@ -1,0 +1,83 @@
+2020-11-28 18:15:26,077 INFO 75635 [egg:logger] init all loggers with options: {"dir":"/Users/lero/Documents/My-data/BLOG/blog_service/logs/init","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"init-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-28 18:15:26,097 INFO 75635 [egg-multipart] stream mode enable
+2020-11-28 18:15:26,188 INFO 75635 [egg-static] starting static serve /public/ -> /Users/lero/Documents/My-data/BLOG/blog_service/app/public
+2020-11-28 18:15:26,190 INFO 75635 [egg-security] use csrf middleware
+2020-11-28 18:15:26,190 INFO 75635 [egg-security] use methodnoallow middleware
+2020-11-28 18:15:26,191 INFO 75635 [egg-security] use noopen middleware
+2020-11-28 18:15:26,191 INFO 75635 [egg-security] use nosniff middleware
+2020-11-28 18:15:26,191 INFO 75635 [egg-security] use xssProtection middleware
+2020-11-28 18:15:26,192 INFO 75635 [egg-security] use xframe middleware
+2020-11-28 18:15:26,192 INFO 75635 [egg-security] use dta middleware
+2020-11-28 18:15:26,192 INFO 75635 [egg-security] compose 7 middlewares into one security middleware
+2020-11-28 18:15:26,198 INFO 75635 [egg:core] dump config after load, 3ms
+2020-11-28 18:15:26,208 INFO 75635 [egg-watcher:application] watcher start success
+2020-11-28 18:15:26,214 INFO 75635 [egg:core] dump config after ready, 4ms
+2020-11-28 20:30:45,427 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-28 20:30:45,428 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-28 21:43:14,705 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-28 21:43:14,761 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-28 23:51:11,094 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 00:04:16,138 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 00:04:16,138 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 00:09:21,556 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 00:48:22,039 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 02:49:19,791 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 04:41:14,138 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 05:15:18,492 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 07:16:15,478 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 09:17:13,560 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 09:17:13,561 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 10:18:11,031 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 10:18:11,031 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 11:18:30,831 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 11:18:30,832 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 11:50:09,114 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 12:51:07,761 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 13:52:06,616 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 15:41:14,078 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 16:43:47,838 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 17:14:00,649 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 17:14:00,650 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 17:33:56,252 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 17:33:56,253 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 17:39:37,929 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 17:45:50,505 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 17:53:28,747 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 17:55:05,145 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 17:55:05,145 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 18:03:00,811 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 18:08:42,532 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 18:08:42,533 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 18:14:24,224 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 18:19:45,943 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 18:19:45,943 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 18:25:27,679 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 19:01:38,520 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 19:07:20,212 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 19:07:20,213 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 19:12:41,937 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 19:12:41,938 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 19:24:10,298 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 19:24:10,299 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 19:30:55,679 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 19:47:30,722 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 19:47:30,722 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 20:50:34,266 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 20:50:34,267 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 21:06:57,990 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 21:17:56,433 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 21:17:56,433 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 21:25:52,087 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 21:30:12,001 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 22:34:54,884 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 22:40:36,591 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 22:43:31,738 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 22:48:55,190 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 22:48:55,191 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 22:53:37,094 WARN 75635 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-29 22:53:37,152 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-29 22:58:45,895 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-30 08:45:10,838 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-30 09:35:37,982 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-30 09:53:33,959 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-30 09:54:37,624 WARN 75635 [ClusterClient:Watcher] follower closed, and try to init it again
