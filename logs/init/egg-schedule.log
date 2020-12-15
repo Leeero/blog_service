@@ -64,3 +64,9 @@
 2020-12-15 16:59:08,940 INFO 52570 [egg-schedule]: register schedule /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2020-12-15 16:59:08,940 INFO 52570 [egg-schedule]: register schedule /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/app/schedule/clean_log.js
 2020-12-15 16:59:08,940 INFO 52570 [egg-schedule]: register schedule /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-12-15 17:02:37,489 INFO 53194 [egg-schedule]: register schedule /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-15 17:02:37,489 INFO 53194 [egg-schedule]: register schedule /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-15 17:02:37,489 INFO 53194 [egg-schedule]: register schedule /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-12-15 17:02:37,648 INFO 53192 [Timer] /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41242356ms at 2020-12-16 04:30:00.004
+2020-12-15 17:02:37,649 INFO 53192 [Timer] /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25042352ms at 2020-12-16 00:00:00.001
+2020-12-15 17:02:37,649 INFO 53192 [Timer] /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25043351ms at 2020-12-16 00:00:01.000

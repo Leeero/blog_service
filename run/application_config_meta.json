@@ -165,6 +165,7 @@
     },
     "dependencies": {
       "egg": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {

@@ -333,3 +333,17 @@
 2020-12-15 16:59:09,023 INFO 52570 [egg:core] dump config after load, 6ms
 2020-12-15 16:59:09,033 INFO 52570 [egg-watcher:application] watcher start success
 2020-12-15 16:59:09,040 INFO 52570 [egg:core] dump config after ready, 5ms
+2020-12-15 17:02:37,465 INFO 53194 [egg:logger] init all loggers with options: {"dir":"/Users/lero/Documents/My-data/BLOG/blog_service/logs/init","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"init-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-15 17:02:37,490 INFO 53194 [egg-multipart] stream mode enable
+2020-12-15 17:02:37,604 INFO 53194 [egg-static] starting static serve /public/ -> /Users/lero/Documents/My-data/BLOG/blog_service/app/public
+2020-12-15 17:02:37,607 INFO 53194 [egg-security] use csrf middleware
+2020-12-15 17:02:37,608 INFO 53194 [egg-security] use methodnoallow middleware
+2020-12-15 17:02:37,609 INFO 53194 [egg-security] use noopen middleware
+2020-12-15 17:02:37,609 INFO 53194 [egg-security] use nosniff middleware
+2020-12-15 17:02:37,610 INFO 53194 [egg-security] use xssProtection middleware
+2020-12-15 17:02:37,611 INFO 53194 [egg-security] use xframe middleware
+2020-12-15 17:02:37,611 INFO 53194 [egg-security] use dta middleware
+2020-12-15 17:02:37,612 INFO 53194 [egg-security] compose 7 middlewares into one security middleware
+2020-12-15 17:02:37,623 INFO 53194 [egg:core] dump config after load, 4ms
+2020-12-15 17:02:37,635 INFO 53194 [egg-watcher:application] watcher start success
+2020-12-15 17:02:37,641 INFO 53194 [egg:core] dump config after ready, 4ms
