@@ -6,8 +6,21 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/",
-    "regexp": "/^(?:\\/(?=$))?$/",
+    "path": "/default/index",
+    "regexp": "/^\\/default\\/index(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/index",
+    "regexp": "/^\\/admin\\/index(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

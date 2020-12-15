@@ -28,7 +28,7 @@
       "value": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
+      "enable": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.local.js",
       "maxAge": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/config/config.default.js"
     },
@@ -83,7 +83,7 @@
     "cookieMaxAge": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-watcher/config/config.default.js",
+    "type": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
       "default": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-watcher/config/config.default.js"
@@ -114,6 +114,14 @@
       "cron": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-multipart/config/config.default.js"
     }
   },
+  "development": {
+    "watchDirs": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-development/config/config.default.js"
+  },
   "logrotator": {
     "filesRotateByHour": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/config/config.default.js",
     "hourDelimiter": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-logrotator/config/config.default.js",
@@ -128,13 +136,12 @@
     "dir": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
     "dynamic": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
     "preload": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.prod.js",
-    "maxFiles": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
-    "maxAge": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.prod.js"
+    "buffer": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-static/config/config.default.js"
   },
   "view": {
     "root": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.local.js",
     "defaultExtension": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view/config/config.default.js"
@@ -240,7 +247,9 @@
     "coreLogName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
-    "coreLogger": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.local.js"
+    },
     "allowDebugAtProd": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
