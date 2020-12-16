@@ -398,3 +398,286 @@ name: "ClusterClientNoResponseError"
 pid: 75625
 hostname: LEROLI-MB0
 
+2020-12-15 18:45:06,467 ERROR 64750 [-/127.0.0.1/-/1ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Protocol._enqueue (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 64750
+hostname: LEROLI-MB0
+
+2020-12-15 18:46:24,928 ERROR 64927 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Protocol._enqueue (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 64927
+hostname: LEROLI-MB0
+
+2020-12-15 19:07:11,173 ERROR 67661 [-/127.0.0.1/-/0ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at Handshake.emit (events.js:315:20)
+    at Handshake._onTimeout (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Sequence.js:124:8)
+    at Timer._onTimeout (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+    --------------------
+    at Protocol._enqueue (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "PROTOCOL_SEQUENCE_TIMEOUT"
+fatal: true
+timeout: 10000
+name: "PROTOCOL_SEQUENCE_TIMEOUTError"
+pid: 67661
+hostname: LEROLI-MB0
+
+2020-12-15 19:13:54,148 ERROR 68637 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Protocol._enqueue (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 68637
+hostname: LEROLI-MB0
+
+2020-12-15 19:23:12,260 ERROR 70224 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'blog'
+    at Handshake.Sequence._packetToError (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Protocol._enqueue (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_BAD_DB_ERROR"
+errno: 1049
+sqlMessage: "Unknown database 'blog'"
+sqlState: "42000"
+fatal: true
+name: "ER_BAD_DB_ERRORError"
+pid: 70224
+hostname: LEROLI-MB0
+
+2020-12-15 19:35:30,937 ERROR 71909 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'blog_content'
+    at Handshake.Sequence._packetToError (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:297:12)
+    --------------------
+    at Protocol._enqueue (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_BAD_DB_ERROR"
+errno: 1049
+sqlMessage: "Unknown database 'blog_content'"
+sqlState: "42000"
+fatal: true
+name: "ER_BAD_DB_ERRORError"
+pid: 71909
+hostname: LEROLI-MB0
+
+2020-12-15 19:46:00,096 ERROR 73206 [-/127.0.0.1/-/0ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at Handshake.emit (events.js:315:20)
+    at Handshake._onTimeout (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Sequence.js:124:8)
+    at Timer._onTimeout (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+    --------------------
+    at Protocol._enqueue (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "PROTOCOL_SEQUENCE_TIMEOUT"
+fatal: true
+timeout: 10000
+name: "PROTOCOL_SEQUENCE_TIMEOUTError"
+pid: 73206
+hostname: LEROLI-MB0
+
+2020-12-15 21:27:48,612 ERROR 85488 [-/127.0.0.1/-/149ms GET /api/v1/blog/list] nodejs.TypeError: result is not iterable
+    at HomeController.index (/Users/lero/Documents/My-data/BLOG/blog_service/app/controller/default/home.js:13:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/koa-static-cache/index.js:41:56
+
+pid: 85488
+hostname: LEROLI-MB0
+
+2020-12-15 21:27:55,515 ERROR 85488 [-/127.0.0.1/-/145ms GET /api/v1/blog/list] nodejs.TypeError: result is not iterable
+    at HomeController.index (/Users/lero/Documents/My-data/BLOG/blog_service/app/controller/default/home.js:13:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/koa-static-cache/index.js:41:56
+
+pid: 85488
+hostname: LEROLI-MB0
+
+2020-12-15 21:28:53,733 ERROR 85643 [-/127.0.0.1/-/148ms GET /api/v1/blog/list] nodejs.TypeError: Cannot read property 'push' of undefined
+    at HomeController.index (/Users/lero/Documents/My-data/BLOG/blog_service/app/controller/default/home.js:10:10)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/koa-static-cache/index.js:41:56
+
+pid: 85643
+hostname: LEROLI-MB0
+
+2020-12-16 14:47:20,513 ERROR 83277 [-/127.0.0.1/-/1ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at Handshake.emit (events.js:315:20)
+    at Handshake._onTimeout (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/sequences/Sequence.js:124:8)
+    at Timer._onTimeout (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+    --------------------
+    at Protocol._enqueue (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/lero/Documents/My-data/BLOG/blog_service/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "PROTOCOL_SEQUENCE_TIMEOUT"
+fatal: true
+timeout: 10000
+name: "PROTOCOL_SEQUENCE_TIMEOUTError"
+pid: 83277
+hostname: LEROLI-MB0
+

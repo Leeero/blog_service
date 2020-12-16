@@ -1,0 +1,3 @@
+insert into blog_article(articleId, articleTitle, articleType, articleIntroduction, articleContent)
+values
+(100001, '测试文章', '测试类型', '测试文章的简介', '测试文章的内容测试文章的内容测试文章的内容测试文章的内容测试文章的内容测试文章的内容测试文章的内容测试文章的内容');

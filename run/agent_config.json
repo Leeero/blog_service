@@ -149,6 +149,21 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "42.192.23.19",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 6>",
+        "database": "blog"
+      }
+    },
     "env": "local",
     "name": "init",
     "keys": "<String len: 23>",
@@ -454,6 +469,17 @@
       "from": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg/config/plugin.js",
       "path": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-view",
       "version": "2.1.3"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lero/Documents/My-data/BLOG/blog_service/config/plugin.js",
+      "path": "/Users/lero/Documents/My-data/BLOG/blog_service/node_modules/egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

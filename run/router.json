@@ -6,8 +6,21 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/default/index",
-    "regexp": "/^\\/default\\/index(?:\\/(?=$))?$/",
+    "path": "/api/v1/blog/article/list",
+    "regexp": "/^\\/api\\/v1\\/blog\\/article\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/blog/article/details",
+    "regexp": "/^\\/api\\/v1\\/blog\\/article\\/details(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
