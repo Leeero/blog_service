@@ -28,6 +28,30 @@ class HomeController extends Controller {
       };
     }
   }
+
+  /**
+   * 删除文章
+   *
+   * @memberof HomeController
+   */
+  async deleteArticle() {
+    const queryParameter = this.ctx.queries;
+
+    const result = await this.app.mysql.delete('blog_article', { articleId: queryParameter.articleId[0] });
+    // 判断删除是否成功
+    const isSuccess = result.affectedRows === 1;
+    if (isSuccess) {
+      this.ctx.body = {
+        code: 1,
+        message: '删除成功',
+      };
+    } else {
+      this.ctx.body = {
+        code: 0,
+        message: '删除失败',
+      };
+    }
+  }
 }
 
 module.exports = HomeController;

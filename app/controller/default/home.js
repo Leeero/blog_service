@@ -25,7 +25,6 @@ class HomeController extends Controller {
    * @memberof HomeController
    */
   async getArticleDetails() {
-    console.log('this.ctx.queries)', this.ctx.queries);
     const queryParameter = this.ctx.queries;
 
     const result = await this.app.mysql.get('blog_article', { articleId: queryParameter.articleId[0] });
