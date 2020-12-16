@@ -52,6 +52,36 @@ class HomeController extends Controller {
       };
     }
   }
+
+  /**
+   * 更新文章
+   *
+   * @memberof HomeController
+   */
+  async updateArticle() {
+    const queryParameter = this.ctx.queries;
+
+    const options = {
+      where: {
+        articleId: queryParameter.articleId[0],
+      },
+    };
+    const result = await this.app.mysql.update('blog_article', this.ctx.request.body, options);
+
+    // 判断更新是否成功
+    const isSuccess = result.affectedRows === 1;
+    if (isSuccess) {
+      this.ctx.body = {
+        code: 1,
+        message: '更新成功',
+      };
+    } else {
+      this.ctx.body = {
+        code: 0,
+        message: '更新失败',
+      };
+    }
+  }
 }
 
 module.exports = HomeController;
